@@ -21,7 +21,7 @@ The mho circles are plotted graphically using signal and sin/cosine generators, 
 
 <img width="763" alt="diagram ieee9" src="dr2.png">
 
-Zone 3 contains zones 1 and 2, and so the mho circles compare fault impedance against only zone 3 to determine whether or not the breaker will trip. Only faults that lie outside of zone 3 will not trip.
+Zone 3 contains zones 1 and 2, and so the mho circles compare fault impedance against zone 3 radius to determine whether or not the breaker will trip. Only faults that lie outside of zone 3 will not trip the breaker.
 
 The following examples show the graphical outputs of various phase-to-ground faults.
 
