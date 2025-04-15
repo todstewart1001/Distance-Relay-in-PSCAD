@@ -7,7 +7,7 @@ This is a distance relay protection scheme in PSCAD. Four transmission line PSCA
 
 Voltage, current, and tripping signals are displayed graphically. 
 
-Shown below is the first block, the signal processor. Instantaneous voltage and current are captured via voltmeter and ammeter behind the breaker. Sequence and phase values are calculated for current and voltage magnitude and phase. This process involves the use of fourier transform to calculate voltage and current magnitude and phase. Phase to sequence filter is then used to calculate sequence values. Finally, the data is exported as arrays through the use of data merges.
+Shown below is the first block, the signal processor. Instantaneous voltage and current are captured via voltmeter and ammeter behind the breaker. Sequence and phase values are calculated for current and voltage magnitude. This process involves the use of fourier transform to calculate voltage and current magnitude and phase. Phase to sequence filter is then used to calculate sequence values. Finally, the data is exported as arrays through the use of data merges.
 
 <img width="763" alt="diagram ieee9" src="signalprocessor.png">
 
